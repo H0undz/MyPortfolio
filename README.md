@@ -5,4 +5,4 @@
 > This is my portfolio
 
 
-[My facebook](https://www.facebook.com/neil.antolijao)
+Send me a message on my [**Facebook**](https://www.facebook.com/neil.antolijao)
