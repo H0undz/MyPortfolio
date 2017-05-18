@@ -1,0 +1,117 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.section {
+	text-align: center;
+}
+
+
+/*-- Menu --*/
+
+#menu li {
+	margin: 30px 0;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+    padding: 0;
+    transform: translateX(-186px);
+	transition: .5s ease-in-out;
+  	-webkit-transition: .5s ease-in-out;
+  	border-right: 10px solid #baa396;
+}
+
+#menu li.active{
+
+	background: rgba(79, 140, 239, 0.5);
+}
+
+#menu li a{
+	text-decoration:none;
+	color: #fff;
+	font-size: 110%;
+	font-family: 'Playfair Display SC', serif;
+}
+
+#menu li a,
+#menu li.active a{
+	padding: 20px 30px;
+	display:block;
+}
+
+#menu li.active a{
+	color: #fff;
+
+}
+
+#menu li.active {
+	border-right: 10px solid #4386f2;
+}
+
+#menu li.home:hover {
+	transform: translateX(0px);
+	border-right:10px solid #6cef2f;
+}
+
+#menu li.layouts:hover {
+	transform: translateX(0px);
+	border-right:10px solid #416808;
+}
+
+#menu li.projects:hover {
+	transform: translateX(0px);
+	border-right:10px solid #bc4c0b;
+}
+
+#menu li.contact:hover {
+	transform: translateX(0px);
+	border-right:10px solid #d8ce04;
+}
+
+#menu{
+	position:fixed;
+	top:140px;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	max-width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+
+
+
+
+/*-- Section 1 --*/
+
+.main-title {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.main-title h1 {
+	font-size: 100px;
+	padding: 0;
+	margin: 0;
+	background: -webkit-linear-gradient(#10ed4f, #333);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	font-family: 'Playfair Display SC', serif;
+	-webkit-animation-duration: 2s;
+  	-webkit-animation-delay: .5s;
+  	
+}
+
+.title-text {
+	color: #474c48;
+	font-size: 110%;
+	font-family: 'Gentium Book Basic', serif;
+  	-webkit-animation-duration: 1s;
+  	-webkit-animation-delay: 2s;
+}
+
+/*-- Section 2 --*/
+/*-- Section 3 --*/
+/*-- Section 4 --*/
