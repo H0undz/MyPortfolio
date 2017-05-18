@@ -100,18 +100,43 @@ body {
   	-webkit-text-fill-color: transparent;
 	font-family: 'Playfair Display SC', serif;
 	-webkit-animation-duration: 2s;
-  	-webkit-animation-delay: .5s;
+  	-webkit-animation-delay: 1s;
+
   	
 }
 
+.tags {
+	background: -webkit-linear-gradient(#10ed4f, #333);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	-webkit-animation-duration: 6s;
+  	-webkit-animation-delay: 2.8s;
+}
+
+
 .title-text {
 	color: #474c48;
+	font-family: 'Gentium Book Basic' , serif;
 	font-size: 110%;
-	font-family: 'Gentium Book Basic', serif;
-  	-webkit-animation-duration: 1s;
-  	-webkit-animation-delay: 2s;
+	-webkit-animation-duration: 6s;
+  	-webkit-animation-delay: 2.8s;
 }
+
+
 
 /*-- Section 2 --*/
 /*-- Section 3 --*/
 /*-- Section 4 --*/
+
+@media screen and (max-width: 1050px) {
+	.main-title h1 {font-size: 70px;}
+}
+
+
+@media screen and (max-width: 768px) {
+	.main-title h1 {font-size: 50px;}
+}
+
+@media screen and (max-width: 380px) {
+	.main-title h1 {font-size: 30px;}
+}
