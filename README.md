@@ -1,8 +1,8 @@
-# My Portfolio
+# Practice Layouts
 
 ---
 
-> This is my portfolio
+> Full Page Layout
 
 
 Send me a message on my [**Facebook**](https://www.facebook.com/neil.antolijao)
